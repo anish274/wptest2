@@ -1,0 +1,25 @@
+{
+    "name": "anish274/wptest2",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/anish274/wptest2",
+    "description": "WP Test2",
+    "keywords": ["code coverage", "codecov", "coverage reports"],
+    "authors": [
+        {
+            "name": "Anish",
+            "email": "anish.thatsme@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": { 
+            "Example": "src/"
+        }
+    }
+}
