@@ -8,9 +8,9 @@
     { "src": ".*\\.php$", "dest": "index.php" }
   ],
   "env": {
-    "DB_NAME": "@db_name",
-    "DB_USER": "@db_user",
-    "DB_PASSWORD": "@db_password",
-    "DB_HOST": "@db_host"
+    "DB_NAME": "@wp_db_name",
+    "DB_USER": "@wp_db_user",
+    "DB_PASSWORD": "@wp_db_password",
+    "DB_HOST": "@wp_db_host"
   }
 }
